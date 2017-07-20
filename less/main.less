@@ -1,35 +1,29 @@
 @color:#de3059;
 .width {
   width:33.33%;
+}
+
 .backgroundfoot {
   background-color: white;
-
 }
 
-}
 .picogram-image {
   width:100%;
 }
-.fa,.fa-cog, .fa-shopping-bag, .fa-sort-desc, .fa-envelope-o, .fa-folder {
+html {
+  background: url("http://cdn3.bigcommerce.com/s-du2hy/products/98/images/286/_MG_6367-Edit__38022.1418955582.1150.766.jpg?c=2") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+// **************************** NAVIGATION ********************************//
+.fa {
 
   color:white;
 
 }
-.fa-bars {
-  color:green;
-  margin-top: 50px;
-  font-size: 4em;
-}
-#responsive .fa-sliders {
-  color:@color;
-  margin-top: 50px;
-  font-size: 4em;
-}
-#quality .fa-list {
-  color:blue;
-  margin-top: 50px;
-  font-size: 4em;
-}
+
 ul {
 list-style-type: none;
 position:fixed;
@@ -51,19 +45,23 @@ li {
   padding:5px;
   margin-right: 10px;
 }
-li a:hover {
-color:green;
-}
-button:hover {
-  background-color: green;
-
-}
 #lired {
 
   background-color: @color;
   padding:15px;
   border-radius: 30px;
 }
+li a:hover {
+color:green;
+}
+
+// *************************** MAIN ************************************//
+main {
+margin-top:0px;
+height:300px;
+background-color: transparent;
+}
+
 #firsth1 {
 
   color:white;
@@ -93,28 +91,20 @@ button {
   border-radius:5px;
   position: fixed;
 }
+button:hover {
+  background-color: green;
+
+}
+// ************************ FOOTER ************************************//
 footer {
   margin-top: 100px;
   clear: both;
   border-top-left-radius: 10px;
   border-top-right-radius:10px;
-}
-main {
-margin-top:0px;
-height:300px;
-background-color: transparent;
-}
-html {
-  background: url("http://cdn3.bigcommerce.com/s-du2hy/products/98/images/286/_MG_6367-Edit__38022.1418955582.1150.766.jpg?c=2") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-footer {
   background-color: white;
   padding-top: 20px;
 }
+
 footer h1 {
 text-align: center;
 
@@ -126,24 +116,35 @@ padding:20px;
 footer h3 {
 font-size: 24px;
 }
-#responsive {
+.footdiv{
   margin-top: -22px;
   .width;
   float:left;
   .backgroundfoot;
   text-align:center;
+}
+.footicons{
+  margin-top: 50px;
+  font-size: 4em;
+}
+#responsive {
+.footdiv;
+}
+#responsive .fa-sliders {
+  color:@color;
+.footicons;
 }
 #quality {
-  margin-top: -22px;
-  .width;
-  float:left;
-  .backgroundfoot;
-  text-align:center;
+.footdiv;
+}
+#quality .fa-list {
+  color:blue;
+.footicons;
 }
 #support {
-  margin-top: -22px;
-  .width;
-  float:right;
-  .backgroundfoot;
-  text-align:center;
+.footdiv;
+}
+#quality .fa-bars {
+  color:green;
+.footicons;
 }
