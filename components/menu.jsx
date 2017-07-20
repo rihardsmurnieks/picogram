@@ -11,14 +11,17 @@ import Shopcart from './shopcart'
 class Menu extends React.Component {
 render(){
   return(
-    <ul>
-      <li><Link to="/"><Icon /> setup <Sortsign /></Link></li>
+  <ul>
+        <li><Link to="/"><Icon /> setup <Sortsign /></Link></li>
+
+
       <li><Link to="/about"><Folder /> Sections <Sortsign /></Link></li>
       <li><Link to="/about"><Shopbag /> Shop </Link></li>
       <li><Link to="/about"><List /> blog </Link></li>
       <li><Link to="/about"><Envelope /> contact </Link></li>
       <li id="lired"><Link to="/about"><Shopcart /> buy now </Link></li>
     </ul>
+  
   );
 
 }
