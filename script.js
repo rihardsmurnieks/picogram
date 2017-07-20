@@ -1,8 +1,10 @@
 
 'use strict';
-//import './node_modules/font-awesome/css/font-awesome.css';
+import './node_modules/font-awesome/css/font-awesome.css';
 import './style.less';
 
-let div=document.getElementById('picogram');
-console.log(typeof div);
-div.innerHTML = 'picogram';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Picogram from './picogram';
+
+ReactDOM.render(<Picogram/>,document.getElementById('picogram'));
