@@ -3,33 +3,45 @@ import Icon from '../components/icon';
 import Logo from '../components/logo';
 import Menu from '../components/menu';
 import Like from '../components/like';
+import List from '../components/list'
+import Bars from '../components/bars'
+import Slider from '../components/slider'
+import Link from 'react-router'
 
 class Main extends React.Component{
   render(){
       return(
-        <div className="container">
-        <header className="header">
-          picogram
-          <Icon />
-          <Logo name="Rihards"/>
-        </header>
-        <nav className="navigation">
+        <div id="container">
+          <main className="main">
+          <nav>
           <Menu />
+          </nav>
 
 
-        </nav>
-        <main className="content">
-          <img className="picogram-image" src="https://source.unsplash.com/random" alt="unsplash" />
-          <Like />
+            <h1 id="firsth1">Slick Material Design</h1>
+            <p id="firstp">Beautiful, Elegantly Coded, One-Page WordPress Theme for Business</p>
 
+          <button>See more</button>
+  </main>
 
-
-        </main>
-        <footer className="footer">
-          <p>&copy; 2017 Rihards</p>
-
-
-        </footer>
+          <footer>
+            <h1 id="footerh1">What we stand for</h1>
+            <div id="responsive">
+              <Slider />
+              <h3>Responsive</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            </div>
+            <div id="quality">
+                <List />
+              <h3 id="footp">Quality</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            </div>
+            <div id="quality">
+              <Bars />
+              <h3>Support</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </footer>
         </div>
 
       );
