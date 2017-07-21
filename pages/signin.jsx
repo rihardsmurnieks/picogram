@@ -5,7 +5,7 @@ import Menu from '../components/menu';
 import Like from '../components/like';
 import Check from '../components/checkbox'
 
-class Main extends React.Component{
+class Signin extends React.Component{
   render(){
       return(
         <div id="container">
@@ -13,12 +13,15 @@ class Main extends React.Component{
           <Menu />
           </nav>
           <main className="main">
-
-          
-             <div id="form">
-               <h2>Setup your needs</h2>
-               <Check />
-              </div>
+            <h1>Signin</h1>
+            <form>
+              <label>
+              Username:
+              <input type="text" name="Name" />
+              Password:
+              <input type="password" name="pass" />
+            </label>
+            </form>
           </main>
 
         </div>
@@ -29,4 +32,4 @@ class Main extends React.Component{
 
 
 }
-export default Main;
+export default Signin;

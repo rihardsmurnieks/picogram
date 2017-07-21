@@ -12,16 +12,16 @@ class Menu extends React.Component {
 render(){
   return(
   <ul>
-        <li><Link to="/"><Icon /> setup <Sortsign /></Link></li>
+        <li><Link to="/"><Icon /> Home <Sortsign /></Link></li>
 
 
-      <li><Link to="/about"><Folder /> Sections <Sortsign /></Link></li>
-      <li><Link to="/about"><Shopbag /> Shop </Link></li>
-      <li><Link to="/about"><List /> blog </Link></li>
-      <li><Link to="/about"><Envelope /> contact </Link></li>
-      <li id="lired"><Link to="/about"><Shopcart /> buy now </Link></li>
+      <li><Link to="/application"><Folder /> Setup <Sortsign /></Link></li>
+      <li><Link to="/shop"><Shopbag /> Shop </Link></li>
+      <li><Link to="/signin"><List /> Sign in </Link></li>
+      <li><Link to="/contacts"><Envelope /> contacts </Link></li>
+      <li id="lired"><Link to="/buynow"><Shopcart /> buy now </Link></li>
     </ul>
-  
+
   );
 
 }

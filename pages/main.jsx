@@ -1,4 +1,4 @@
-import React from 'React';
+  import React from 'React';
 import Icon from '../components/icon';
 import Logo from '../components/logo';
 import Menu from '../components/menu';
@@ -18,8 +18,8 @@ class Main extends React.Component{
           </nav>
 
 
-            <h1 id="firsth1">Slick Material Design</h1>
-            <p id="firstp">Beautiful, Elegantly Coded, One-Page WordPress Theme for Business</p>
+            <h1 id="firsth1">Choose Your Next Home</h1>
+            <p id="firstp">Beautiful, Elegantly styled appartments exactly for You</p>
 
           <button>See more</button>
   </main>
@@ -28,7 +28,7 @@ class Main extends React.Component{
             <h1 id="footerh1">What we stand for</h1>
             <div id="responsive">
               <Slider />
-              <h3>Responsive</h3>
+              <h3>Responsibility</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
             </div>
             <div id="quality">
